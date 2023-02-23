@@ -1,0 +1,55 @@
+.item {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	padding-bottom: 5px;
+	width: 650px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: rgb(54, 54, 54);
+	border-bottom: 3px solid rgb(54, 54, 54);
+}
+
+
+.index {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(240,240,240);
+	font-size: 20px;
+	padding: 5px;
+	border-radius: 5px;	
+	width: 20px;
+	height: 20px;
+	line-height: 10px;
+	flex-shrink: 0;
+	margin-right: 10px;
+	cursor: pointer
+}
+
+.index.completed {
+	background-color: rgb(117, 234, 116);
+}
+
+.controller {
+	flex-shrink: 0;
+}
+
+button {
+	border: none;
+	font-size: 20px;
+	border-radius: 5px;	
+	margin-left: 10px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.todo {
+	font-size: 20px;
+}
+
+.todo.change {
+	color: rgb(179, 21, 21);
+}
